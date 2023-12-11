@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to right, black, white, black);
+    /* Estándar */
+    background: -webkit-linear-gradient(to right, black, white, black);
+    /* Safari 5.1-6, Chrome 10-25 */
+    background: -o-linear-gradient(right, black, white, black);
+    /* Opera 11.1-12 */
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 75px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 25%;
+  }
+  
+  h2{
+    font-family: 'Tangerine', serif;
+    font-size: 55px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 25%;
+  }
