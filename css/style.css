@@ -27,3 +27,7 @@ body {
     text-shadow: 4px 4px 4px #aaa;
     margin-left: 25%;
   }
+
+  .container{
+    background-color: white;
+  }
